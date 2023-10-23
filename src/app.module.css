@@ -1,0 +1,33 @@
+body {
+  background-color: #750213;
+  background-image: url('./img/zyro.png');
+  
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name .buttonbox button {
+  color: #cc001f;
+  border-radius: 15px;
+  border-color: #50000c;
+  padding: 10px 15px;
+  margin: 0 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.name .buttonbox button:hover {
+  cursor: pointer;
+  background-color: #d1d1d1;
+}
+
+.name h1 {
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=app.module.css.map */
